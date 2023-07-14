@@ -15,6 +15,7 @@ export class ShoppingListComponent implements OnInit{
 
 
   constructor() {
+    console.log("Inside shopping list");
 
   }
 
@@ -22,6 +23,7 @@ export class ShoppingListComponent implements OnInit{
 
   ngOnInit(): void {
 
+    console.log("Inside shopping list - ng");
   }
 
 
