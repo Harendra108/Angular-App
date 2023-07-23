@@ -37,7 +37,8 @@ export class RecipeDetailComponent {
   }
 
   onDelete() {
-
+    this.recipeService.deleteRecipe(this.id);
+    this.router.navigate(['/recipes']);
   }
 
 }
